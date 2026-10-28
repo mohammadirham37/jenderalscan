@@ -1,6 +1,12 @@
-# JenderalScan
+<p align="center">
+  <img src="build/appicon.png" width="112" height="112" alt="JenderalScan Logo" />
+</p>
 
-**Non-Intrusive Desktop Web Vulnerability Surface Scanner · Go + Wails v2 + React**
+<h1 align="center">JenderalScan</h1>
+
+<p align="center">
+  <strong>Non-Intrusive Desktop Web Vulnerability Surface Scanner · Go + Wails v2 + React</strong>
+</p>
 
 JenderalScan adalah aplikasi desktop lintas platform (**macOS**, **Windows**, dan **Linux**) untuk mengaudit permukaan keamanan (*security surface*) sebuah website yang Anda miliki atau yang telah memberikan izin tertulis resmi.
 

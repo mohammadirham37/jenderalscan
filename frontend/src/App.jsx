@@ -441,10 +441,55 @@ export default function App() {
           {/* Application Identity */}
           <div className="px-4 py-4 border-b" style={{ borderColor: 'var(--border-hairline)' }}>
             <div className="flex items-center gap-2.5">
-              <div
-                className="w-1.5 h-5 rounded-sm"
-                style={{ backgroundColor: 'var(--accent-primary)' }}
-              />
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 256 256"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="shrink-0"
+                aria-label="JenderalScan Logo"
+              >
+                <rect
+                  x="12"
+                  y="12"
+                  width="232"
+                  height="232"
+                  rx="52"
+                  fill="#121518"
+                  stroke="#2A3038"
+                  strokeWidth="8"
+                />
+                <path
+                  d="M128 38 L200 68 V126 C200 176 168 206 128 222 C88 206 56 176 56 126 V68 L128 38 Z"
+                  fill="#161C24"
+                  stroke="#3874EB"
+                  strokeWidth="12"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M84 114 A 46 46 0 0 1 172 114"
+                  stroke="#3874EB"
+                  strokeWidth="6"
+                  strokeLinecap="round"
+                  strokeOpacity="0.65"
+                />
+                <path
+                  d="M84 142 L128 100 L172 142"
+                  stroke="#ECEFF2"
+                  strokeWidth="14"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d="M96 172 L128 142 L160 172"
+                  stroke="#3874EB"
+                  strokeWidth="12"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <circle cx="128" cy="74" r="10" fill="#30A46C" stroke="#121518" strokeWidth="4" />
+              </svg>
               <span className="font-bold text-[15px] tracking-tight">JenderalScan</span>
               <span
                 className="text-[11px] font-mono px-1.5 py-0.5 rounded"
@@ -456,7 +501,7 @@ export default function App() {
                 1.0
               </span>
             </div>
-            <p className="text-[11.5px] mt-1 leading-snug" style={{ color: 'var(--text-muted)' }}>
+            <p className="text-[11.5px] mt-1.5 leading-snug" style={{ color: 'var(--text-muted)' }}>
               {t.appSubtitle}
             </p>
           </div>

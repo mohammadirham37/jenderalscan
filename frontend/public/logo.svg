@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <!-- Outer Squircle Base -->
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="#121518" stroke="#2A3038" stroke-width="12"/>
+  <rect x="44" y="44" width="424" height="424" rx="86" fill="#181C20" stroke="#222830" stroke-width="4"/>
+
+  <!-- Subtle Radar Grid & Crosshair Axes -->
+  <circle cx="256" cy="256" r="156" stroke="#242B35" stroke-width="3" stroke-dasharray="8 8"/>
+  <circle cx="256" cy="256" r="108" stroke="#283240" stroke-width="3"/>
+  <line x1="256" y1="76" x2="256" y2="436" stroke="#232A34" stroke-width="3"/>
+  <line x1="76" y1="256" x2="436" y2="256" stroke="#232A34" stroke-width="3"/>
+
+  <!-- Tactical Shield Perimeter (Non-Intrusive Surface Guard) -->
+  <path
+    d="M256 84 L392 140 V252 C392 344 332 406 256 436 C180 406 120 344 120 252 V140 L256 84 Z"
+    fill="#141B26"
+    stroke="#3874EB"
+    stroke-width="18"
+    stroke-linejoin="round"
+  />
+
+  <!-- Inner Scan Aperture Ring -->
+  <path
+    d="M176 232 A84 84 0 0 1 336 232"
+    stroke="#3874EB"
+    stroke-width="10"
+    stroke-linecap="round"
+    opacity="0.55"
+  />
+
+  <!-- Jenderal Command Chevron (Double Insignia) -->
+  <path
+    d="M172 284 L256 204 L340 284"
+    stroke="#ECEFF2"
+    stroke-width="24"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M196 340 L256 282 L316 340"
+    stroke="#3874EB"
+    stroke-width="20"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <!-- Scope Lock Apex Node -->
+  <circle cx="256" cy="148" r="14" fill="#30A46C" stroke="#121518" stroke-width="5"/>
+</svg>
