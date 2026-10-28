@@ -1,0 +1,14 @@
+# Compiled binaries
+/jenderalscan
+/jenderalscan.exe
+/build/bin/
+
+# Node dependencies
+frontend/node_modules/
+
+# Local SQLite databases & OS metadata
+*.db
+*.db-shm
+*.db-wal
+.DS_Store
+Thumbs.db
